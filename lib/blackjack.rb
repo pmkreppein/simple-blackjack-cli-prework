@@ -35,6 +35,7 @@ def hit?(hand)
   choice = get_user_input
   case choice
     when "h"
+      hand += deal_card
       
 end
 
