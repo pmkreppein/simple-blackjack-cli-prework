@@ -56,6 +56,7 @@ def runner
   welcome
   game = initial_round
   until game > 21 do
-    game = 
+    game = hit?(game)
+    
 end
     
