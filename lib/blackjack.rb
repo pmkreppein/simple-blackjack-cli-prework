@@ -34,6 +34,7 @@ def hit?(hand)
   prompt_user
   choice = get_user_input
   case choice
+    when "h"
 end
 
 def invalid_command
