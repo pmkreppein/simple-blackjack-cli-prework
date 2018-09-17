@@ -32,6 +32,7 @@ end
 
 def hit?(hand)
   prompt_user
+  choice = get_user_input
   
 end
 
