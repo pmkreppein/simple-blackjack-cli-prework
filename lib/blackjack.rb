@@ -27,11 +27,11 @@ end
 
 def initial_round
   hand = deal_card + deal_card
-  
+  display_card_total(hand)
 end
 
 def hit?
-  # code hit? here
+  if 
 end
 
 def invalid_command
