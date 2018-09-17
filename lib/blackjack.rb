@@ -28,6 +28,7 @@ end
 def initial_round
   hand = deal_card + deal_card
   display_card_total(hand)
+  return hand
 end
 
 def hit?(hand)
@@ -52,6 +53,8 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  display_card_total
 end
     
