@@ -31,7 +31,8 @@ def initial_round
 end
 
 def hit?(hand)
-  if 
+  prompt_user
+  
 end
 
 def invalid_command
