@@ -30,7 +30,7 @@ def initial_round
   display_card_total(hand)
 end
 
-def hit?
+def hit?(hand)
   if 
 end
 
