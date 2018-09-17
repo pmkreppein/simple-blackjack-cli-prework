@@ -36,8 +36,9 @@ def hit?(hand)
   case choice
     when "h"
       hand += deal_card
-    when "s"
+    else
       return hand
+    end
 end
 
 def invalid_command
